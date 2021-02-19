@@ -31,16 +31,12 @@
 // Mantıksal Bağlaçlar
 
 // Not Operatörü
-
 // console.log(!(2 != 2));
 
 // And Operatörü
-
-
 // console.log( (4 == 2) && ("Ahmet" == "Ahmet"));
 
-// // Or Operatörü
-
+// Or Operatörü
 // console.log((4 == 2) || ("Ahmet" == "Ahmet") );
 
 // const error = false;
@@ -83,6 +79,8 @@ const number = 120;
 // else {
 //     console.log("Sayı 100'e Eşit Değil");
 // }
+
+
 // Ternary Operator
 
 // console.log(number === 100 ? "Sayı 100" : "Sayı 100 Değil")
