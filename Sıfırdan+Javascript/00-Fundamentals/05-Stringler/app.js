@@ -9,9 +9,9 @@ value = firstName + lastName;
 
 value = firstName + " " + lastName;
 
-value = "Mustafa Murat ";
+value = "Kenan ";
 
-value += "Coşkun"; // value = value + "Coşkun"
+value += "Deniz"; // value = value + "Deniz"
 
 value = firstName.length;
 
