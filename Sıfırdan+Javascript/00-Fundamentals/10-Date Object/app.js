@@ -3,11 +3,11 @@ let value;
 
 const now = new Date(); // Şu anki zamanı almamızı sağlar...
 
-const date1 = new Date("9-19-1993 06:15:00");
+const date1 = new Date("9-21-1982 06:15:00");
 
-const date2 = new Date("September 19 1993");
+const date2 = new Date("September 21 1982");
 
-const date3 = new Date("9/19/1993");
+const date3 = new Date("9/21/1982");
 
 value = date1;
 
