@@ -1,5 +1,5 @@
-const name = "Mustafa Murat Coşkun";
-const department = "Bilişim";
+const name = "Kenan Deniz";
+const department = "Developer";
 const salary = 4000;
 
 
