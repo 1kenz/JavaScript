@@ -1,4 +1,5 @@
 "use strict";
+// GLOBAL, FUNCTION 
 
 // Var
 var name = 'Ken';
@@ -12,7 +13,7 @@ console.log(name); // Let
 // Const
 // const name = "Ken";
 // console.log(name);
-// name = "Murat";
+// name = "Kerem";
 // console.log(name);
 // const a = [1, 2, 3, 4, 5];
 // console.log(a);
