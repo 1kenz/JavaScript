@@ -6,13 +6,13 @@ value = document.all;
 value = document.all.length;
 value = document.all[0];
 value = document.all[6];
-value = document.all[document.all.length-1];
+value = document.all[document.all.length - 1];
 
 // const elements = document.all; //Html Collection
 // for(let i = 0; i < elements.length;i++) {
 //     console.log(elements[i]);
 // }
-// elements.forEach(function(element){
+// elements.forEach(function(element){  // bu şekilde kullanılamaz
 //     console.log(element);
 // });
 
