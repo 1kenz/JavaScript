@@ -11,7 +11,7 @@ value = document.scripts[0];
 
 // Linkler
 
-value = document.links;
+value = document.links;  // all a tags
 value = document.links[0];
 value = document.links[document.links.length-1];
 value = document.links[document.links.length-1].getAttribute("class");
