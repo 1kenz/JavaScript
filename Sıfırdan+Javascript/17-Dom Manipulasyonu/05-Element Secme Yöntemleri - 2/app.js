@@ -1,4 +1,4 @@
-const element = document.querySelector("#clear-todos");
+const element = document.querySelector('#clear-todos');
 
 // Element Özellikleri
 
@@ -9,7 +9,7 @@ const element = document.querySelector("#clear-todos");
 // console.log(element.textContent);
 // console.log(element.innerHTML);
 // console.log(element.href);
-// console.log(element.style);
+// console.log(element.style);  // style object
 
 // Style ve Element Özelliklerini Değiştirme
 
@@ -21,17 +21,18 @@ const element = document.querySelector("#clear-todos");
 // element.textContent = "Silin";
 // element.innerHTML = "<span style = 'color:green'>Silin</span>"
 
-let element2 = document.querySelector("li:last-child");
-element2 = document.querySelector("li:nth-child(2)");
-element2 = document.querySelector("li:nth-child(3)");
-element2 = document.querySelector("li:nth-child(4)");
-element2 = document.querySelectorAll("li:nth-child(odd)");
-element2 = document.querySelectorAll("li:nth-child(even)");
+let element2 = document.querySelector('li:first-child');
+let element2 = document.querySelector('li:last-child');
+element2 = document.querySelector('li:nth-child(2)');
+element2 = document.querySelector('li:nth-child(3)');
+element2 = document.querySelector('li:nth-child(4)');
+element2 = document.querySelectorAll('li:nth-child(odd)');
+element2 = document.querySelectorAll('li:nth-child(even)');
 
-element2.forEach(function(el){
-    el.style.background ="#ccc";
-    el.style.color = "red";
-})
+element2.forEach(function (el) {
+    el.style.background = '#ccc';
+    el.style.color = 'red';
+});
 // const elements = document.querySelectorAll(".list-group-item"); // Node List
 // elements.forEach(function(el){
 //     el.style.color = "red";
