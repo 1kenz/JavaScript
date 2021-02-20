@@ -8,11 +8,11 @@
 //     header.textContent = e.target.value;
 //     // console.log(e.target.value);
 // }
-// keypress
+// keypress- sadece numaralar ve harfler
 // document.addEventListener("keypress",run);
 
 // function run(e){
-//     // console.log(e.which);
+//     // console.log(e.which);  // tuş ascii numarası
 //     console.log(e.key);
 // }
 
@@ -32,5 +32,3 @@
 //     // console.log(e.which);
 //     console.log(e.key);
 // }
-
-
