@@ -6,30 +6,28 @@
 // });
 // document.querySelector(".card.row").addEventListener("click",function(){
 //     console.log("Card Row");
-    
+
 // });
 // document.querySelectorAll(".card-body")[1].addEventListener("click",function(){
 //     console.log("Card Body");
-    
+
 // });
 
-// Event Capturing veya Delegation
+// Event Capturing or Delegation
 
-const cardbody = document.querySelectorAll(".card-body")[1];
+const cardbody = document.querySelectorAll('.card-body')[1];
 
-cardbody.addEventListener("click",run);
+cardbody.addEventListener('click', run);
 
-function run(e){
-    if (e.target.className === "fa fa-remove"){
-        console.log("Silme İşlemi");
+function run(e) {
+    if (e.target.className === 'fa fa-remove') {
+        console.log('Silme İşlemi');
     }
-    if (e.target.id === "filter") {
-        console.log("Filtreleme İşlemi");
+    if (e.target.id === 'filter') {
+        console.log('Filtreleme İşlemi');
     }
-    if(e.target.id === "clear-todos") {
-        console.log("Tüm taskları silme işlemi");
-        
+    if (e.target.id === 'clear-todos') {
+        console.log('Tüm taskları silme işlemi');
     }
     // console.log(e.target);
-
 }

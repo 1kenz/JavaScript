@@ -1,4 +1,4 @@
-// Session Storage - Key ve Value
+// Session Storage - Key and Value
 
 // Butonları Seçmek
 
