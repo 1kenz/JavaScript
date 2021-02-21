@@ -1,14 +1,14 @@
 const person = {
-    name:"Mustafa Murat",
-    age:25,
-    salary:3000
+    name: 'Ken Den',
+    age: 29,
+    salary: 9000,
 };
 
-const langs = ["Python","Java","C++","Php"];
+const langs = ['Python', 'Java', 'C++', 'Php'];
 
-const name = "Mustafa";
+const name = 'Ken';
 
-// For In 
+// For In -- array and object- based index
 // Object
 // for(let prop in person) {
 //     console.log(prop,person[prop]);
@@ -24,6 +24,7 @@ const name = "Mustafa";
 //     console.log(index,name[index]);
 // }
 
+// FOR OF -- use only like array- based items
 // Object
 
 // for (let value of person){
@@ -36,7 +37,6 @@ const name = "Mustafa";
 
 // String
 
-for (let character of name){
+for (let character of name) {
     console.log(character);
 }
-
