@@ -1,4 +1,4 @@
-
+// Destructing
 
 // let number1,number2;
 
@@ -9,13 +9,13 @@
 
 // Destructing
 
-// [number1,number2] = arr; 
-// const [number1,number2] = arr;
+// [number1,number2] = arr;
 
+// const [number1,number2] = arr;
 
 // console.log(number1,number2);
 
-// Obje Destructing
+// Object Destructing
 
 // const numbers = {
 //     a:10,
@@ -36,20 +36,22 @@
 // const [lang1,lang2,lang3] = getLangs();
 // console.log(lang1,lang2,lang3);
 
-// Obje 
+// Object
 
 const person = {
-    name:"Mustafa Murat",
-    year:1993,
-    salary : 3000,
-    showInfos : () => console.log("Bilgiler gösteriliyor...")
+    name: 'Ken Den',
+    year: 2000,
+    salary: 9000,
+    showInfos: () => console.log('Bilgiler gösteriliyor...'),
+};
 
-}
+const {
+    name: isim,
+    year: yil,
+    salary: maas,
+    showInfos: bilgileriGoster,
+} = person;
 
-const {name:isim,year:yil,salary:maas,showInfos:bilgileriGoster} = person;
-
-console.log(isim,yil,maas);
+console.log(isim, yil, maas);
 
 bilgileriGoster();
-
-
