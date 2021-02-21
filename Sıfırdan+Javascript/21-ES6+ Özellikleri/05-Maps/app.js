@@ -1,19 +1,19 @@
 // Mapler - Key(Anahtar) - Value(Değer)
 
-// let myMap = new Map(); // Oluşturma
+// let myMap = new Map(); // Create
 
 // console.log(myMap);
 
-// const key1 = "Mustafa";
-// const key2 = {a:10,b:20};
+// const key1 = 'Ken';
+// const key2 = { a: 10, b: 20 };
 // const key3 = () => 2;
-// // Set
-// myMap.set(key1,"String Değer");
-// myMap.set(key2,"Object Literal Değer");
-// myMap.set(key3,"Function Değer");
 
-// Get 
+// Set-- adding Map
+// myMap.set(key1, 'String Value');
+// myMap.set(key2, 'Object Literal Value');
+// myMap.set(key3, 'Function Value');
 
+// Get
 // console.log(myMap.get(key1));
 // console.log(myMap.get(key2));
 // console.log(myMap.get(key3));
@@ -29,14 +29,13 @@
 // cities.set("Ankara",5);
 // cities.set("İstanbul",15);
 // cities.set("İzmir",4);
-// For Each
 
+// For Each
 // cities.forEach(function(value,key){
 //     console.log(key,value);
 // })
 
 // For Of
-
 // for(let [key,value] of cities){ // Destructing
 //     console.log(key,value);
 
@@ -65,9 +64,9 @@
 
 const cities = new Map();
 
-cities.set("Ankara",5);
-cities.set("İstanbul",15);
-cities.set("İzmir",4);
+cities.set('Ankara', 5);
+cities.set('İstanbul', 15);
+cities.set('İzmir', 4);
 
 const array = Array.from(cities);
 // [["Ankara",5],["İstanbul",15],["İzmir",4]]
