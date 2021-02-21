@@ -1,21 +1,24 @@
-// let a = "Mustafa";
-// let b = "Mustafa";
+//! primitive types compare value
+//! reference types compare memory reference address so it is always return "false"
+
+// let a = "Ken";
+// let b = "Ken";
 
 // if (a === b) {
-//     console.log("Eşit");
+//     console.log("Equal");
 // }
 
 // const person1 = {
-//     name:"Mustafa",
-//     age:25
+//     name:"Ken",
+//     age:35
 // }
 // const person2 = {
-//     name:"Mustafa",
-//     age:25
+//     name:"Ken",
+//     age:35
 // }
 
 // if(person1 === person2) {
-//     console.log("Eşit");
+//     console.log("Equal");
 // }
 
 // const cities = new Map();
