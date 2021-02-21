@@ -12,7 +12,6 @@
 
 // const numbers = [1,2,3,4,5,6,7,8,9];
 
-
 // const [a,b,...number2] =numbers;
 
 // console.log(a,b);
@@ -20,11 +19,6 @@
 
 // const addNumbers = (a,b,c) => console.log(a+b+c);
 
-// const numbers = [100,200,300];
+// const numbers = [100,200,300,400,500];  // parçaladığı için sadece gerektiği kadar item yollar diğerlerini yollamaz. Sadece üç item gönderir. Sonuç 600
 
 // addNumbers(...numbers);
-
-
-
-
-
