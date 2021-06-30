@@ -86,11 +86,43 @@ const langs = ['Python', 'Javascript', 'Java'];
 // console.log(ages);
 
 // FOR IN
-const user = {
-    name: 'Kenan',
-    age: 39,
-};
+// const user = {
+//     name: 'Kenan',
+//     age: 39,
+// };
 
-for (let key in user) {
-    console.log(key, user[key]);
+// for (let key in user) {
+//     console.log(key, user[key]);
+// }
+
+var users = [
+    { email: 'kenden@ken.com', password: 12345 },
+    { email: 'kenden@den.com', password: 12345 },
+];
+
+var tweets = [
+    { email: 'kenden@ken.com', tweet: 'Weather is beautiful today' },
+    { email: 'kenden@den.com', tweet: 'Yes it is very good' },
+];
+
+var email = prompt('email ?');
+var password = prompt('password ?');
+
+function isUserExist(email, password) {
+    for (let i = 0; i < users.length; i++) {
+        if (users[i].email == email && users[i].password == password) {
+            return true;
+        }
+    }
+    return false;
 }
+
+function login() {
+    if (isUserExist(email, password)) {
+        console.log(tweets);
+    } else {
+        console.log('Wrong user or password...');
+    }
+}
+
+login(email, password);
